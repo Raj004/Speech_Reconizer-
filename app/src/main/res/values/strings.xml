@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Custom Speech recognization</string>
+    <string name="error_audio_error">Error in audio..</string>
+  <string name="error_client"> Client speech Error </string>
+  <string name="error_permission">Permission Error..</string>
+  <string name="error_network">Network connection error..</string>
+  <string name="error_timeout">Time out error..</string>
+  <string name="error_no_match">Not match your voice..</string>
+  <string name="error_busy">Reconizer is busy now..</string>
+  <string name="error_server">Server error</string>
+  <string name="error_understand">Yes result get!</string>
+</resources>

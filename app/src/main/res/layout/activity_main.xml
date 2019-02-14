@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+
+  <EditText
+      android:id="@+id/editText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:hint="You will see input here"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+
+  <ImageButton
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="20dp"
+      android:visibility="visible"
+      android:background="@drawable/cross"
+       />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:text="Listening..."
+      android:textSize="24sp"
+      android:id="@+id/tv_listen"
+      android:textColor="@color/colorAccent"
+      android:visibility="gone"
+      android:layout_marginBottom="30dp"
+
+      android:layout_centerHorizontal="true"/>
+</FrameLayout>
+</RelativeLayout>
